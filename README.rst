@@ -1,7 +1,7 @@
 Overview
 ========
 
-SemNet is a series of modules for working with semantic networks. More specifically, we implemented algorithms that would help us gather features and rank nodes in terms of their connections to other nodes. The software was designed to work with a `network`_ of biomedical concepts stored in a locally hosted `Neo4j`_ database (`node types`_, `edge types`_).  Details on all of the algorithms can be found in the `original paper`.
+SemNet is a series of modules for working with semantic networks. More specifically, we implemented algorithms that would help us gather features and rank nodes in terms of their connections to other nodes. The software was designed to work with a `network`_ of biomedical concepts stored in a locally hosted `Neo4j`_ database (`node types`_, `edge types`_).  Details on all of the algorithms can be found in the `original paper`_.
 
 .. _network: https://skr3.nlm.nih.gov/SemMedDB/index.html
 .. _Neo4j: https://neo4j.com/
@@ -41,15 +41,16 @@ The following features have been implemented in SemNet:
 Citation
 ^^^^^^^^
 If you use SemNet, please cite us!
-@article{sedler_2019_semnet,
-  title={SemNet: Using Local Features to Navigate the Biomedical Concept Graph},
-  author={Sedler, Andrew R and Mitchell, Cassie S},
-  journal={Frontiers in Bioengineering and Biotechnology},
-  volume={7},
-  pages={156},
-  year={2019},
-  publisher={Frontiers}
-}
+.. code-block:: latex
+   @article{sedler_2019_semnet,
+     title={SemNet: Using Local Features to Navigate the Biomedical Concept Graph},
+     author={Sedler, Andrew R and Mitchell, Cassie S},
+     journal={Frontiers in Bioengineering and Biotechnology},
+     volume={7},
+     pages={156},
+     year={2019},
+     publisher={Frontiers}
+   }
 
 
 References
