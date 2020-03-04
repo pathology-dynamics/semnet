@@ -41,7 +41,10 @@ The following features have been implemented in SemNet:
 Citation
 ^^^^^^^^
 If you use SemNet, please cite us!
+
+
 .. code-block:: latex
+
    @article{sedler_2019_semnet,
      title={SemNet: Using Local Features to Navigate the Biomedical Concept Graph},
      author={Sedler, Andrew R and Mitchell, Cassie S},
@@ -51,6 +54,7 @@ If you use SemNet, please cite us!
      year={2019},
      publisher={Frontiers}
    }
+
 
 
 References
