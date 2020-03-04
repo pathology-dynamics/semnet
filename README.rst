@@ -1,12 +1,13 @@
 Overview
 ========
 
-SemNet is a series of modules for working with semantic networks. More specifically, we implemented algorithms that would help us gather features and rank nodes in terms of their connections to other nodes. The software was designed to work with a `network`_ of biomedical concepts stored in a locally hosted `Neo4j`_ database (`node types`_, `edge types`_)
+SemNet is a series of modules for working with semantic networks. More specifically, we implemented algorithms that would help us gather features and rank nodes in terms of their connections to other nodes. The software was designed to work with a `network`_ of biomedical concepts stored in a locally hosted `Neo4j`_ database (`node types`_, `edge types`_).  Details on all of the algorithms can be found in the `original paper`.
 
 .. _network: https://skr3.nlm.nih.gov/SemMedDB/index.html
 .. _Neo4j: https://neo4j.com/
 .. _node types: https://www.nlm.nih.gov/research/umls/META3_current_semantic_types.html
 .. _edge types: https://www.nlm.nih.gov/research/umls/META3_current_relations.html
+.. _original paper: https://www.ncbi.nlm.nih.gov/pubmed/31334227
 
 Installation
 ^^^^^^^^^^^^
@@ -36,8 +37,22 @@ The following features have been implemented in SemNet:
     * Query parallelization
     * Vectorization
     * Negative example generation
+    
+Citation
+^^^^^^^^
+If you use SemNet, please cite us!
+@article{sedler_2019_semnet,
+  title={SemNet: Using Local Features to Navigate the Biomedical Concept Graph},
+  author={Sedler, Andrew R and Mitchell, Cassie S},
+  journal={Frontiers in Bioengineering and Biotechnology},
+  volume={7},
+  pages={156},
+  year={2019},
+  publisher={Frontiers}
+}
 
-Citations
+
+References
 ^^^^^^^^^
 
 * Himmelstein, Daniel S., and Sergio E. Baranzini. "Heterogeneous network edge prediction: a data integration approach to prioritize disease-associated genes." PLoS computational biology 11.7 (2015): e1004259.
