@@ -14,6 +14,10 @@ Installation
 
 To install, clone the repository to your machine, change to the ``semnet`` directory, and use ``pip install .``. You should then be able to ``import semnet`` and use it.
 
+You can create the graph by installing Neo4j on your computer, downloading the node and edge files (`available here`_) into the Neo4j import directory, and running ```neo4j_import.sh```.
+
+.. _available here: https://drive.google.com/drive/folders/1qXuX1MdnhqY0chG9_7KmtBkIoa1JROYd?usp=sharing
+
 Features
 ^^^^^^^^
 
